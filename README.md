@@ -24,6 +24,8 @@
 
 두번째, 자바스크립트
 
+<img width="424" alt="구구단 2" src="https://user-images.githubusercontent.com/74701876/102583126-68b35a00-4147-11eb-9a65-6c9ce2f97c79.png">
+
 
 우선  gugudan이라는 funtion을 만들고 
 
