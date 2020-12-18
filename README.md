@@ -13,20 +13,7 @@
 
 첫번째. HTML 작성하기
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>구구단 만들기</title>
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <button class="btn">눌러주세요</button>
-    <div class="test_container"></div>
-    <script src="./index.js"></script>
-  </body>
-</html>
+<img width="509" alt="구구단 1" src="https://user-images.githubusercontent.com/74701876/102583115-62bd7900-4147-11eb-9db2-a2707637ec45.png">
 우선 button태그를 하나 만들고 'btn'이라는 클래스를 주고 
 
 아래에 빈 div태그를 만들어서 'test_container'클래스를 주었다.
@@ -37,19 +24,7 @@
 
 두번째, 자바스크립트
 
-function gugudan() {
-  for (let i = 2; i < 10; i++) {
-    for (let j = 1; j < 10; j++) {
-      document.querySelector(
-        ".test_container"
-      ).innerHTML += `<div>${i}*${j} = ${i * j} `;
-    }
-  }
-}
 
-document.querySelector(".btn").onclick = function () {
-  gugudan();
-};
 우선  gugudan이라는 funtion을 만들고 
 
 그안에 for 반복문을 사용해서 다음과 같이 설정한다. 
